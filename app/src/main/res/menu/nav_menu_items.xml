@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nv_account"
+        android:title="Account"
+        android:icon="@drawable/ic_account"/>
+    <item
+        android:id="@+id/nv_notifications"
+        android:title="Notifications"
+        android:icon="@drawable/ic_notifications"/>
+    <item
+        android:id="@+id/nv_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"/>
+    <item
+        android:id="@+id/nv_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"/>
+
+    </group>
+
 </menu>
